@@ -1,0 +1,18 @@
+{
+  "name": "dsh-constitution-viz",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "宪法可视化：上下文构成一屏看——截断探针（宪法文件各深度标记可见性自检）+注入边界（平台自动注入面/按需拉取面清单）+总纲令体检（三条总纲令在位与字节量），constitution_viz工具一键出体检报告，零依赖零构建。",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "cordis.patch.yml", "locale/*.json", "icon.svg", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "agent", "ai-agent", "context-window", "introspection"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "peerDependencies": { "@antinomyhq/forge": "*" }
+}

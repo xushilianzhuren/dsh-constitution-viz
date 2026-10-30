@@ -1,0 +1,7 @@
+# dsh-constitution-viz · cordis.patch.yml
+- insert:
+    - id: dsh-constitution-viz
+      name: 'dsh-constitution-viz'
+      config:
+        enabled: true
+        tool: true

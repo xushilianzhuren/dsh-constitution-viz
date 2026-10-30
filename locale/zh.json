@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "dsh-constitution-viz · 宪法可视化",
+    "description": "AI 上下文构成一屏看：截断探针（多深度标记可见性自检）+注入边界（自动注入面/按需拉取面）+总纲令体检（常驻令在位与字节量），constitution_viz 工具一键出报告，零依赖零构建。"
+  }
+}
